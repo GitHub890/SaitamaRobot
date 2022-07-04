@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import String, Column, Integer, BigInteger, UnicodeText
 
-from KaguyaRobot.modules.sql import SESSION, BASE
+from SaitamaRobot.modules.sql import SESSION, BASE
 
 DEF_COUNT = 1
 DEF_LIMIT = 0
