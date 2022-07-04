@@ -3,7 +3,7 @@ import threading
 
 from SaitamaRobot import dispatcher
 from SaitamaRobot.modules.sql import BASE, SESSION
-from sqlalchemy import Boolean, Column, Integmmm, String, UnicodeText
+from sqlalchemy import Boolean, Column, BigInteger, String, UnicodeText
 from telegram.error import BadRequest, Unauthorized
 
 
